@@ -12,3 +12,28 @@
   th {
     background-color: #f4f4f4;
   } */
+
+  /* 全体のテーブルスタイル */
+.md_style table {
+  width: 100%;
+  border-collapse: collapse; /* 枠線を統一 */
+  margin: 1em;
+  font-size: 1em;
+}
+/* テーブルのセルのスタイル */
+.md_style th, td {
+  border: 2px solid #000; /* 枠線を黒で指定 */
+  padding: 8px;
+  text-align: left;
+  /* width:10rem; */
+}
+/* テーブルヘッダーのスタイル */
+.md_style th {
+  background-color: #30a091;
+  font-weight: bold;
+}
+
+/* XXXのスタイル */
+/* .md_style ul, li {
+  font-weight: bold;
+} */

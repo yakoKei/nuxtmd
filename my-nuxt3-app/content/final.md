@@ -2,10 +2,20 @@
 
 これはMarkdown形式のコンテンツです。
 
-- 項目1
-    - sub
+- 項目1なぜか段落はインデントがvuetfy有効時のみ適用されない
+  - sub
+  7. aaa1
+  1. aaa2
+  1. aaa3
+  1. aaa4
+  1. aaa5
+  1. aaa6
 - 項目2
 - 項目3
+
+oneline  
+  tablineタブ入れてもインデント全く適用されない  
+&nbsp;&nbsp;tabline
 
 check out the [about page](/about)
 
@@ -17,11 +27,12 @@ check out the [about page](/about)
 
 ## Tables
 
-| Option   | Description                                                             |
-|----------|-------------------------------------------------------------------------|
-| data     | path to data files to supply the data that will be passed into templates. |
-| engine   | engine to be used for processing templates. Handlebars is the default.  |
-| ext      | extension to be used for dest files.                                    |
+| オプション  | 説明                                                  |
+|-------------|-------------------------------------------------------|
+| data        | テンプレートに渡すデータファイルへのパス              |
+| engine      | テンプレートを処理するためのエンジン（例: Handlebars） |
+| ext         | 出力されるファイルの拡張子                            |
+
 
 # aiueo
 
@@ -58,23 +69,21 @@ Right aligned columns
 | ext    | extension to be used for dest files. |
 | ext    | extension to be used for dest files. |
 | ext    | extension to be used for dest files. |
-<a id="Tables"></a>
+<!-- <a id="Tables"></a> -->
 
-<table class="d-flex justify-center alin-center">
+<table>
+<th>
+  'jisaku'
+</rh>
+<th>
+  'jisaku2'
+</rh>
 <tr>
 <tb>
-  'jisaku'
+  'jisakuABC'
 </rb>
 <tb>
-  'jisaku2'
-</rb>
-</tr>
-<tr>
-<tb>
-  'jisaku'
-</rb>
-<tb>
-  'jisaku2'
+  'jisaku2ABC'
 </rb>
 </tr>
 </table>
