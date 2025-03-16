@@ -27,17 +27,17 @@ check out the [about page](/about)
 
 ## Tables
 
-| オプション  | 説明                                                  |
-|-------------|-------------------------------------------------------|
-| data        | テンプレートに渡すデータファイルへのパス              |
-| engine      | テンプレートを処理するためのエンジン（例: Handlebars） |
-| ext         | 出力されるファイルの拡張子                            |
+| オプション | 説明 |
+|----|--|
+| data | テンプレートに渡すデータファイルへのパス |
+| engine | テンプレートを処理するためのエンジン（例: Handlebars） |
+| ext | 出力されるファイルの拡張子 |
 
 
 # aiueo
 
 | Option | Description |
-| :------ | :-----------: |
+|:------|:-----------:|
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
@@ -45,7 +45,7 @@ check out the [about page](/about)
 Right aligned columns
 
 | Option | Description |
-|:-------|:-----------|
+|:--:|-----------:|
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
@@ -72,20 +72,22 @@ Right aligned columns
 <!-- <a id="Tables"></a> -->
 
 <table>
-<th>
-  'jisaku'
-</rh>
-<th>
-  'jisaku2'
-</rh>
+<thead>
 <tr>
-<tb>
-  'jisakuABC'
-</rb>
-<tb>
-  'jisaku2ABC'
-</rb>
+<th>abc</th>
+<th>def</th>
 </tr>
+</thead>
+<tbody>
+<tr>
+<td>bar</td>
+<td></td>
+</tr>
+<tr>
+<td>bar</td>
+<td>baz</td>
+</tr>
+</tbody>
 </table>
 
 
